@@ -34,7 +34,7 @@ export default async (req, res) => {
   const searchResult = users.find(
     (u) => u.email === email && u.password === password
   )
-  console.log(searchResult, "search Result")
+  
   if (searchResult) {
     const resposeObject = {
       ...searchResult,

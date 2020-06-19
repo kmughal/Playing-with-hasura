@@ -23,7 +23,6 @@ const LoginPage = () => {
     const res = await fetch("/api/login", fetchParams)
     try {
       const json = await res.json()
-      console.log(json, fetchParams.body)
       if (json.error_message) {
         setLoginFail(true)
         return
@@ -33,7 +32,7 @@ const LoginPage = () => {
     } catch (e) {
       console.log("Error : ", e)
     }
-    console.log(res)
+   
     e.preventDefault()
   }, [])
 
