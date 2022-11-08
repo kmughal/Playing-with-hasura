@@ -16,7 +16,7 @@
     "connect-cookies": "^0.0.0",
     "graphql": "^15.1.0",
     "jsonwebtoken": "^8.5.1",
-    "next": "^9.4.4",
+    "next": "^13.0.2",
     "nookies": "^2.3.1",
     "postcss-preset-env": "^6.7.0",
     "react": "^16.13.1",
